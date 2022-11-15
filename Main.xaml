@@ -176,12 +176,12 @@
               <av:Size x:Key="ShapeSize">200,62.666666666666664</av:Size>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ParallelForEach x:TypeArguments="x:String" DisplayName="Parallel For Each" sap:VirtualizedContainerService.HintSize="200,62.666666666666664" sap2010:WorkflowViewState.IdRef="ParallelForEach`1_2" Values="[Directory.GetFiles(&quot;D:\InvoiceSample\Working&quot;)]">
+          <ParallelForEach x:TypeArguments="x:String" DisplayName="Parallel For Each" sap:VirtualizedContainerService.HintSize="590.6666666666666,3824.6666666666665" sap2010:WorkflowViewState.IdRef="ParallelForEach`1_2" Values="[Directory.GetFiles(&quot;D:\InvoiceSample\Working&quot;)]">
             <ActivityAction x:TypeArguments="x:String">
               <ActivityAction.Argument>
                 <DelegateInArgument x:TypeArguments="x:String" Name="item" />
               </ActivityAction.Argument>
-              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="540,3523.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_20">
+              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="540,3662" sap2010:WorkflowViewState.IdRef="Sequence_20">
                 <Sequence.Variables>
                   <Variable x:TypeArguments="x:String" Name="DocText" />
                   <Variable x:TypeArguments="p5:Document" Name="Dom" />
@@ -202,6 +202,7 @@
                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
+                <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="478,98.66666666666667" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="Testing" />
                 <Assign sap:VirtualizedContainerService.HintSize="478,72" sap2010:WorkflowViewState.IdRef="Assign_4">
                   <Assign.To>
                     <OutArgument x:TypeArguments="x:String">[strFilePath]</OutArgument>
