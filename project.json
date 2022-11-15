@@ -5,10 +5,11 @@
   "dependencies": {
     "UiPath.DocumentUnderstanding.ML.Activities": "[1.17.0]",
     "UiPath.Excel.Activities": "[2.16.0]",
-    "UiPath.FormActivityLibrary": "[2.0.2]",
-    "UiPath.IntelligentOCR.Activities": "[6.5.0]",
+    "UiPath.Form.Activities": "[2.0.2]",
+    "UiPath.IntelligentOCR.Activities": "6.5.0",
     "UiPath.Persistence.Activities": "[1.4.1]",
-    "UiPath.System.Activities": "[22.10.3]"
+    "UiPath.System.Activities": "[22.10.3]",
+    "UiPath.Testing.Activities": "[22.10.0]"
   },
   "webServices": [],
   "entitiesStores": [],
